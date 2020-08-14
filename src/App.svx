@@ -1,0 +1,28 @@
+
+<script>
+  import Name from './components/Name.svelte';
+
+  export let fig;
+
+  function close() {
+    fig.reposition("7");
+  }
+</script>
+
+## Svelte Fig App Template
+
+This is a template for creating applications for fig. Since many of the 
+fig application have documentation intermixed, this top level file is a 
+markdown formated file with the ability to add components. So, let's add 
+a component:
+
+<Name name="World" fig={fig} />
+
+This component gets the fig data structure from the parent to access the 
+fig API. The name parameter is just some data to send to the component. 
+
+You can mix HTML and markdown in this document. This gives a great amount 
+of flexibility.
+
+<button on:click={close}>Close</button>
+

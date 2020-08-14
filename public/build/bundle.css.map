@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../Name.svelte"
+  ],
+  "sourcesContent": [
+    "<div id='name'>\n  <p>Hello, {name}!</p>\n</div>\n\n<style>\n  #name {\n    display: flex;\n    flex-direction: row;\n  }\n</style>\n\n<script>\n  export let name;\n  export let fig;\n</script>\n\n"
+  ],
+  "names": [],
+  "mappings": "AAKE,KAAK,eAAC,CAAC,AACL,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,AACrB,CAAC"
+}
