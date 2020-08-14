@@ -1,7 +1,7 @@
 ## Svelte Fig App Template
 
 This template is used to create new applications for [fig](https://docs.withfig.com/). 
-This template is a full Svelte Application with (mdsvex)[https://mdsvex.com/]. This 
+This template is a full Svelte Application with [mdsvex](https://mdsvex.com/). This 
 gives you a great development environment for having documentation at the root level 
 with Svelte components throughout it.
 
